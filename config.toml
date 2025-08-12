@@ -2,7 +2,7 @@
 theme = "hugo-theme-learn"
 
 # URL gốc cho site khi build
-# baseURL = "https://nits0174.github.io/ws-aws/"
+baseURL = "https://nits0174.github.io/Workshop-AWS/"
 
 # publishDir = "docs"
 
@@ -16,9 +16,9 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = ""
+  editURL = "https://nits0174.github.io/Workshop-AWS/"
   description = ""
-  author = "journeyoftheaverageguy@gmail.com"
+  author = "thangnguyen040701@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false

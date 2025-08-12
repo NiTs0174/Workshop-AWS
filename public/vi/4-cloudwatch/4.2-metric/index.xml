@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thu Thập &amp; Phân Tích CloudWatch Metric on Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
-    <link>//localhost:1313/vi/4-cloudwatch/4.2-metric/</link>
+    <link>https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/4.2-metric/</link>
     <description>Recent content in Thu Thập &amp; Phân Tích CloudWatch Metric on Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="//localhost:1313/vi/4-cloudwatch/4.2-metric/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/4.2-metric/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
