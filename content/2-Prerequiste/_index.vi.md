@@ -41,7 +41,7 @@ Với hệ điều hành **MacOS, Linux, Ubuntu,** mời bạn tham khảo cách
 
   + Kết quả
   
-![K6](/images/2.prerequisite/001-k6.png)
+![K6](/Workshop-AWS/images/2.prerequisite/001-k6.png)
 
 Tài liệu tham khảo: [https://k6.io/](https://k6.io/)
 

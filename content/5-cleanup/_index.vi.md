@@ -45,23 +45,23 @@ pre : " <b> 5. </b> "
   + Trên thanh tìm kiếm dịch vụ AWS:
     + Nhập `CloudFormation`.
     + Chọn **CloudFormation.**
-![Cloudformation](/images/5.clean/clean-cloudformation-004.png)
+![Cloudformation](/Workshop-AWS/images/5.clean/clean-cloudformation-004.png)
 
   + Trong CloudFormation Console:
     + Chọn stack đã tạo trong workshop này.
     + Ấn chọn **Delete.**
-![Cloudformation](/images/5.clean/clean-cloudformation-001.png)
+![Cloudformation](/Workshop-AWS/images/5.clean/clean-cloudformation-001.png)
 
   + Trong hộp thoại xác nhận:
     + Ấn chọn **Delete** để xác nhận việc xóa stack.
-![Cloudformation](/images/5.clean/clean-cloudformation-002.png)
+![Cloudformation](/Workshop-AWS/images/5.clean/clean-cloudformation-002.png)
 
 💡 **Pro Tip**: Quá trình xóa stack có thể mất vài phút tùy thuộc vào số lượng và độ phức tạp của tài nguyên. Bạn có thể theo dõi tiến trình trong tab “Events” của stack.
 
   + Chờ đợi quá trình xóa hoàn tất:
     + Stack sẽ hiển thị trạng thái “DELETE_IN_PROGRESS” trong quá trình xóa.
     + Sau khi hoàn tất, stack sẽ biến mất khỏi danh sách.
-![Cloudformation](/images/5.clean/clean-cloudformation-003.png)
+![Cloudformation](/Workshop-AWS/images/5.clean/clean-cloudformation-003.png)
 
 6. Xóa bucket codepipeline-us-east-1-….
     + Mở AWS **S3 console**.

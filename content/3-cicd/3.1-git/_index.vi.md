@@ -10,18 +10,18 @@ pre : " <b> 3.1 </b> "
      + Nhấp vào **Projects** trên menu bên trái.
      + Chọn tùy chọn **Create a project**.  
    
-![Git](/images/3.cicd/git-001.png)
+![Git](/Workshop-AWS/images/3.cicd/git-001.png)
 
    + Tại trang **Create new project**, chọn tùy chọn **Create blank project**.
    
-![Git](/images/3.cicd/git-002.png)
+![Git](/Workshop-AWS/images/3.cicd/git-002.png)
 
    + Tại trang **Create blank project**.
       + Nhập `fcj-book-store-backend` tại **Project name**.
       + Bỏ chọn **Initialize repository with a README**.
       + Nhấp vào nút **Create project**.  
       
-![Git](/images/3.cicd/git-003.png)
+![Git](/Workshop-AWS/images/3.cicd/git-003.png)
 
 1. Cấu hình khóa SSH để giao tiếp với **Gitlab**.
      + Làm theo tài liệu trong **Notes** để hoàn thành bước này.
@@ -44,5 +44,5 @@ pre : " <b> 3.1 </b> "
 
 1. Quay lại dự án **fcj-book-store-backend** trên Gitlab. Bạn có thể thấy mã đã được tải lên.
 
-![Git](/images/3.cicd/git-004.png)
+![Git](/Workshop-AWS/images/3.cicd/git-004.png)
 

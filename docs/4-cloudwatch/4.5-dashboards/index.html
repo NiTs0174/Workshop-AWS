@@ -12,21 +12,21 @@
     <title>CloudWatch Dashboards :: Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
 
     
-    <link href="/Workshop-AWS/css/nucleus.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hybrid.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/featherlight.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/auto-complete.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/theme.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hugo-theme.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/nucleus.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hybrid.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/featherlight.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/auto-complete.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hugo-theme.css?1754968633" rel="stylesheet">
     
-    <link href="/Workshop-AWS/css/theme-workshop.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme-workshop.css?1754968633" rel="stylesheet">
     
     
 
-    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754968633"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754967488"></script>
-<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754968633"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754968633"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/nits0174.github.io\/Workshop-AWS\/";
     
 </script>
-<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754968633"></script>
 
     
   </div>
@@ -621,11 +621,11 @@ Trong Performance Automation Testing, dashboard giúp: Theo dõi kết quả tes
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/board-001.png" alt="Board"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/board-001.png" alt="Board"></p>
 <ul>
 <li>Trong hộp thoại <strong>Add to dashboard</strong>, chọn <strong>Create new</strong></li>
 </ul>
-<p><img src="/images/4.cloudwatch/board-002.png" alt="Board"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/board-002.png" alt="Board"></p>
 <ul>
 <li>Cấu hình Dashboard mới:
 <ul>
@@ -635,14 +635,14 @@ Trong Performance Automation Testing, dashboard giúp: Theo dõi kết quả tes
 </ul>
 </li>
 </ul>
-<p><img src="/images/4.cloudwatch/board-003.png" alt="Board"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/board-003.png" alt="Board"></p>
 <p>💡 <strong>Pro Tip</strong>: Đặt tên dashboard có ý nghĩa và phân loại rõ ràng sẽ giúp bạn dễ dàng quản lý khi số lượng dashboards tăng lên trong môi trường thực tế. Cân nhắc sử dụng các tiền tố như “Prod-”, “Dev-”, hoặc tên ứng dụng để phân loại.</p>
 <p>Dưới đây là dashboard vừa được tạo:</p>
-<p><img src="/images/4.cloudwatch/board-004.png" alt="Board"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/board-004.png" alt="Board"></p>
 <p>ℹ️ <strong>Information</strong>: CloudWatch Dashboards hỗ trợ nhiều loại widget khác nhau như biểu đồ, số liệu đơn, bảng, văn bản và nhiều hơn nữa. Mỗi widget có thể được tùy chỉnh về kích thước, vị trí và hiển thị dữ liệu.</p>
 <p>Bạn có thể thực hiện nhiều thao tác tùy chỉnh trên widget này:</p>
-<p><img src="/images/4.cloudwatch/board-005.png" alt="Board">
-<img src="/images/4.cloudwatch/board-006.png" alt="Board"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/board-005.png" alt="Board">
+<img src="/Workshop-AWS/images/4.cloudwatch/board-006.png" alt="Board"></p>
 <p>🔒 <strong>Security Note</strong>: Dashboards có thể được chia sẻ với người dùng khác trong tổ chức của bạn hoặc thậm chí công khai (không yêu cầu đăng nhập AWS). Hãy cẩn thận khi chia sẻ dashboards có chứa thông tin nhạy cảm về cơ sở hạ tầng của bạn.</p>
 <p>⚠️ <strong>Warning</strong>: CloudWatch Dashboards có giới hạn 500 widgets trên mỗi dashboard và 20.000 metrics trên tất cả các dashboards. Trong môi trường sản xuất lớn, hãy cân nhắc tạo nhiều dashboards chuyên biệt thay vì một dashboard quá lớn và phức tạp.</p>
 
@@ -909,19 +909,19 @@ Trong Performance Automation Testing, dashboard giúp: Theo dõi kết quả tes
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/Workshop-AWS/js/clipboard.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/jquery.sticky.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/featherlight.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/highlight.pack.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/clipboard.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/jquery.sticky.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/featherlight.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/highlight.pack.js?1754968633"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/learn.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/hugo-learn.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/learn.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/hugo-learn.js?1754968633"></script>
 
-    <link href="/Workshop-AWS/mermaid/mermaid.css?1754967488" rel="stylesheet" />
-    <script src="/Workshop-AWS/mermaid/mermaid.js?1754967488"></script>
+    <link href="/Workshop-AWS/mermaid/mermaid.css?1754968633" rel="stylesheet" />
+    <script src="/Workshop-AWS/mermaid/mermaid.js?1754968633"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

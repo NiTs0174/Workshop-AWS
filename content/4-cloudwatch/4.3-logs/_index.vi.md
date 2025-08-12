@@ -22,17 +22,17 @@ pre : " <b> 4.3 </b> "
     + Chọn **Log groups**
     + Chọn **/aws/codebuild/fcjBookStorBuildProject**
 
-![Logs](/images/4.cloudwatch/logs-001.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-001.png)
 
 💡 **Pro Tip**: Sử dụng thanh tìm kiếm giúp bạn nhanh chóng tìm thấy các log groups cụ thể trong môi trường có nhiều tài nguyên, tiết kiệm thời gian phân tích.
 
   + Chọn một instance bất kỳ để xem chi tiết logs
 
-![Logs](/images/4.cloudwatch/logs-002.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-002.png)
 
   + Trong giao diện logs, bạn có thể thấy các bản ghi từ instance này được tạo ra từ nhiều nguồn khác nhau như: dhclient, NET, ec2net, systemd…
 
-![Logs](/images/4.cloudwatch/logs-003.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-003.png)
 
 ℹ️ **Information**: Các logs này cung cấp thông tin chi tiết về hoạt động của hệ thống, giúp bạn theo dõi các sự kiện, phát hiện lỗi và hiểu rõ hơn về cách hệ thống đang hoạt động.
 
@@ -41,19 +41,19 @@ pre : " <b> 4.3 </b> "
     + Chọn **Log groups** từ menu bên trái
     + Chọn **/aws/codebuild/fcjBookStorBuildProject**
 
-[Logs](/images/4.cloudwatch/logs-001.png)
+[Logs](/Workshop-AWS/images/4.cloudwatch/logs-001.png)
 
 2. Trong giao diện của **/aws/codebuild/fcjBookStorBuildProject**
     + Mở rộng menu **Actions**
     + Chọn **Create metric filter**
 
-![Logs](/images/4.cloudwatch/logs-004.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-004.png)
 
 3. Trong phần **Define Pattern**, cấu hình các thông tin sau:
     + Filter pattern: mở rộng dropdown và chọn **Warning**
     + Test pattern: mở rộng và chọn một instance (nên chọn instance mà chúng ta đã tạo processes ở các bước trước)
 
-![Logs](/images/4.cloudwatch/logs-005.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-005.png)
 
 💡 **Pro Tip**: Việc kiểm thử pattern trước khi tạo metric filter giúp bạn xác nhận rằng filter sẽ bắt đúng các sự kiện mong muốn, tránh tình trạng thiếu dữ liệu hoặc dữ liệu không chính xác.
 
@@ -66,21 +66,21 @@ pre : " <b> 4.3 </b> "
     + Unit: mở rộng dropdown và chọn **Count**
     + Nhấn **Next**
 
-![Logs](/images/4.cloudwatch/logs-006.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-006.png)
 
 ⚠️ **Warning**: Việc đặt namespace và tên metric phù hợp rất quan trọng để dễ dàng tìm kiếm và phân loại metrics trong môi trường có nhiều ứng dụng. Hãy sử dụng quy ước đặt tên nhất quán trong toàn bộ hệ thống của bạn.
 
 5. Xem lại cấu hình và nhấn **Create metric filter**
    
-![Logs](/images/4.cloudwatch/logs-007.png)
-![Logs](/images/4.cloudwatch/logs-008.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-007.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-008.png)
 
 6. Trở lại **Metrics > All metrics**
     + Tìm kiếm với từ khóa `/var/log/messages` và `ERROR`
     + Chọn **k6-logs > Metrics with no dimensions**
 
-![Logs](/images/4.cloudwatch/logs-009.png)
-![Logs](/images/4.cloudwatch/logs-010.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-009.png)
+![Logs](/Workshop-AWS/images/4.cloudwatch/logs-010.png)
 
 ℹ️ **Information**: Bây giờ chúng ta đã có một metric được tạo từ các log WARNING. Metric này có thể được sử dụng để tạo biểu đồ, dashboards, và cảnh báo khi số lượng lỗi vượt quá ngưỡng cho phép.
 

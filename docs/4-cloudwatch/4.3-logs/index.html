@@ -12,21 +12,21 @@
     <title>CloudWatch Logs :: Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
 
     
-    <link href="/Workshop-AWS/css/nucleus.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hybrid.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/featherlight.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/auto-complete.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/theme.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hugo-theme.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/nucleus.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hybrid.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/featherlight.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/auto-complete.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hugo-theme.css?1754968633" rel="stylesheet">
     
-    <link href="/Workshop-AWS/css/theme-workshop.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme-workshop.css?1754968633" rel="stylesheet">
     
     
 
-    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754968633"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754967488"></script>
-<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754968633"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754968633"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/nits0174.github.io\/Workshop-AWS\/";
     
 </script>
-<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754968633"></script>
 
     
   </div>
@@ -628,16 +628,16 @@
 </ul>
 </li>
 </ul>
-<p><img src="/images/4.cloudwatch/logs-001.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-001.png" alt="Logs"></p>
 <p>💡 <strong>Pro Tip</strong>: Sử dụng thanh tìm kiếm giúp bạn nhanh chóng tìm thấy các log groups cụ thể trong môi trường có nhiều tài nguyên, tiết kiệm thời gian phân tích.</p>
 <ul>
 <li>Chọn một instance bất kỳ để xem chi tiết logs</li>
 </ul>
-<p><img src="/images/4.cloudwatch/logs-002.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-002.png" alt="Logs"></p>
 <ul>
 <li>Trong giao diện logs, bạn có thể thấy các bản ghi từ instance này được tạo ra từ nhiều nguồn khác nhau như: dhclient, NET, ec2net, systemd…</li>
 </ul>
-<p><img src="/images/4.cloudwatch/logs-003.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-003.png" alt="Logs"></p>
 <p>ℹ️ <strong>Information</strong>: Các logs này cung cấp thông tin chi tiết về hoạt động của hệ thống, giúp bạn theo dõi các sự kiện, phát hiện lỗi và hiểu rõ hơn về cách hệ thống đang hoạt động.</p>
 <h4 id="cloudwatch-metric-filter">CloudWatch Metric Filter</h4>
 <ol>
@@ -648,7 +648,7 @@
 </ul>
 </li>
 </ol>
-<p><a href="/images/4.cloudwatch/logs-001.png">Logs</a></p>
+<p><a href="/Workshop-AWS/images/4.cloudwatch/logs-001.png">Logs</a></p>
 <ol start="2">
 <li>Trong giao diện của <strong>/aws/codebuild/fcjBookStorBuildProject</strong>
 <ul>
@@ -657,7 +657,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/logs-004.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-004.png" alt="Logs"></p>
 <ol start="3">
 <li>Trong phần <strong>Define Pattern</strong>, cấu hình các thông tin sau:
 <ul>
@@ -666,7 +666,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/logs-005.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-005.png" alt="Logs"></p>
 <p>💡 <strong>Pro Tip</strong>: Việc kiểm thử pattern trước khi tạo metric filter giúp bạn xác nhận rằng filter sẽ bắt đúng các sự kiện mong muốn, tránh tình trạng thiếu dữ liệu hoặc dữ liệu không chính xác.</p>
 <ol start="4">
 <li>Trong phần <strong>Create filter name</strong> của <strong>Assign metric</strong>, nhập <code>PythonAppErrors</code></li>
@@ -683,13 +683,13 @@
 </ul>
 </li>
 </ul>
-<p><img src="/images/4.cloudwatch/logs-006.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-006.png" alt="Logs"></p>
 <p>⚠️ <strong>Warning</strong>: Việc đặt namespace và tên metric phù hợp rất quan trọng để dễ dàng tìm kiếm và phân loại metrics trong môi trường có nhiều ứng dụng. Hãy sử dụng quy ước đặt tên nhất quán trong toàn bộ hệ thống của bạn.</p>
 <ol start="5">
 <li>Xem lại cấu hình và nhấn <strong>Create metric filter</strong></li>
 </ol>
-<p><img src="/images/4.cloudwatch/logs-007.png" alt="Logs">
-<img src="/images/4.cloudwatch/logs-008.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-007.png" alt="Logs">
+<img src="/Workshop-AWS/images/4.cloudwatch/logs-008.png" alt="Logs"></p>
 <ol start="6">
 <li>Trở lại <strong>Metrics &gt; All metrics</strong>
 <ul>
@@ -698,8 +698,8 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/logs-009.png" alt="Logs">
-<img src="/images/4.cloudwatch/logs-010.png" alt="Logs"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/logs-009.png" alt="Logs">
+<img src="/Workshop-AWS/images/4.cloudwatch/logs-010.png" alt="Logs"></p>
 <p>ℹ️ <strong>Information</strong>: Bây giờ chúng ta đã có một metric được tạo từ các log WARNING. Metric này có thể được sử dụng để tạo biểu đồ, dashboards, và cảnh báo khi số lượng lỗi vượt quá ngưỡng cho phép.</p>
 <p>💡 <strong>Pro Tip</strong>: Bạn có thể tạo nhiều metric filters khác nhau cho cùng một log group để theo dõi các loại sự kiện khác nhau, như ERROR, INFO, hoặc các mẫu tùy chỉnh phù hợp với ứng dụng của bạn.</p>
 <p>🔒 <strong>Security Note</strong>: Metric filters là công cụ quan trọng để phát hiện các vấn đề bảo mật tiềm ẩn trong hệ thống của bạn. Hãy cân nhắc tạo các filters đặc biệt cho các sự kiện liên quan đến bảo mật như đăng nhập thất bại, thay đổi quyền, hoặc truy cập trái phép.</p>
@@ -967,19 +967,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/Workshop-AWS/js/clipboard.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/jquery.sticky.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/featherlight.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/highlight.pack.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/clipboard.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/jquery.sticky.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/featherlight.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/highlight.pack.js?1754968633"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/learn.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/hugo-learn.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/learn.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/hugo-learn.js?1754968633"></script>
 
-    <link href="/Workshop-AWS/mermaid/mermaid.css?1754967488" rel="stylesheet" />
-    <script src="/Workshop-AWS/mermaid/mermaid.js?1754967488"></script>
+    <link href="/Workshop-AWS/mermaid/mermaid.css?1754968633" rel="stylesheet" />
+    <script src="/Workshop-AWS/mermaid/mermaid.js?1754968633"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -12,21 +12,21 @@
     <title>Thu Thập &amp; Phân Tích CloudWatch Metric :: Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
 
     
-    <link href="/Workshop-AWS/css/nucleus.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hybrid.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/featherlight.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/auto-complete.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/theme.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hugo-theme.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/nucleus.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hybrid.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/featherlight.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/auto-complete.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hugo-theme.css?1754968633" rel="stylesheet">
     
-    <link href="/Workshop-AWS/css/theme-workshop.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme-workshop.css?1754968633" rel="stylesheet">
     
     
 
-    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754968633"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754967488"></script>
-<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754968633"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754968633"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/nits0174.github.io\/Workshop-AWS\/";
     
 </script>
-<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754968633"></script>
 
     
   </div>
@@ -623,7 +623,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/metrics-001.png" alt="Metric"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/metrics-001.png" alt="Metric"></p>
 <ol>
 <li>Trong giao diện <strong>CloudWatch</strong>
 <ul>
@@ -632,13 +632,13 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/metrics-002.png" alt="Metric"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/metrics-002.png" alt="Metric"></p>
 <ul>
 <li>Trong giao diện biểu đồ metrics, nhập <code>từ khóa</code> vào ô tìm kiếm</li>
 <li>Từ kết quả tìm kiếm, chọn <strong>kết quả mong muốn</strong></li>
 </ul>
-<p><img src="/images/4.cloudwatch/metrics-007.png" alt="Metric">
-<img src="/images/4.cloudwatch/metrics-003.png" alt="Metric"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/metrics-007.png" alt="Metric">
+<img src="/Workshop-AWS/images/4.cloudwatch/metrics-003.png" alt="Metric"></p>
 <p>💡 <strong>Pro Tip</strong>: Khi sử dụng thanh tìm kiếm, CloudWatch mặc định sẽ tìm theo <strong>Metric name</strong>, giúp bạn nhanh chóng lọc ra các metrics cụ thể cần theo dõi.</p>
 <ol>
 <li>Tick chọn các nhiều metric để so sánh, quan sát biểu đồ và ghi nhận:
@@ -649,7 +649,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/metrics-004.png" alt="Metric"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/metrics-004.png" alt="Metric"></p>
 <p>⚠️ <strong>Warning</strong>: Khi hiển thị nhiều metrics có đơn vị đo khác nhau trên cùng một biểu đồ, việc phân tích có thể trở nên khó khăn. Trong phần tiếp theo, chúng ta sẽ tìm hiểu cách tùy chỉnh biểu đồ để có cái nhìn trực quan hơn.</p>
 
 
@@ -915,19 +915,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/Workshop-AWS/js/clipboard.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/jquery.sticky.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/featherlight.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/highlight.pack.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/clipboard.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/jquery.sticky.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/featherlight.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/highlight.pack.js?1754968633"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/learn.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/hugo-learn.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/learn.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/hugo-learn.js?1754968633"></script>
 
-    <link href="/Workshop-AWS/mermaid/mermaid.css?1754967488" rel="stylesheet" />
-    <script src="/Workshop-AWS/mermaid/mermaid.js?1754967488"></script>
+    <link href="/Workshop-AWS/mermaid/mermaid.css?1754968633" rel="stylesheet" />
+    <script src="/Workshop-AWS/mermaid/mermaid.js?1754968633"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

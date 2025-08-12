@@ -12,21 +12,21 @@
     <title>Thiết Lập cảnh báo CloudWatch Alarms :: Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
 
     
-    <link href="/Workshop-AWS/css/nucleus.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hybrid.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/featherlight.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/auto-complete.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/theme.css?1754967488" rel="stylesheet">
-    <link href="/Workshop-AWS/css/hugo-theme.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/nucleus.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hybrid.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/featherlight.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/auto-complete.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme.css?1754968633" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hugo-theme.css?1754968633" rel="stylesheet">
     
-    <link href="/Workshop-AWS/css/theme-workshop.css?1754967488" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme-workshop.css?1754968633" rel="stylesheet">
     
     
 
-    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754968633"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754967488"></script>
-<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754968633"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754968633"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/nits0174.github.io\/Workshop-AWS\/";
     
 </script>
-<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754967488"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754968633"></script>
 
     
   </div>
@@ -620,19 +620,19 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/alarm-001.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-001.png" alt="Alarm"></p>
 <ol start="2">
 <li>Chọn <strong>Select metric.</strong></li>
 </ol>
-<p><img src="/images/4.cloudwatch/alarm-002.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-002.png" alt="Alarm"></p>
 <p>Cửa sổ metrics hiện lên, trong <strong>Custom namespaces</strong>, chọn <strong>k6-logs.</strong></p>
-<p><img src="/images/4.cloudwatch/alarm-003.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-003.png" alt="Alarm"></p>
 <p>Chọn tiếp <strong>Metrics with no dimensions</strong>, chọn <strong>/var/log/messages</strong> và ấn chọn <strong>Select metric.</strong></p>
-<p><img src="/images/4.cloudwatch/alarm-004.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-004.png" alt="Alarm"></p>
 <ol start="3">
 <li>Trong phần <strong>Specify metric and conditions</strong>, chọn <strong>Period</strong> là <strong>1 minutes.</strong></li>
 </ol>
-<p><img src="/images/4.cloudwatch/alarm-005.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-005.png" alt="Alarm"></p>
 <ol start="4">
 <li>Trong phần <strong>Conditions</strong>
 <ul>
@@ -641,7 +641,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/4.cloudwatch/alarm-006.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-006.png" alt="Alarm"></p>
 <p>💡 <strong>Pro Tip</strong>: Đường nét đứt ngang trên biểu đồ chỉ ra ngưỡng mà <strong>Alarm</strong> sẽ được kích hoạt. Khi số lượng lỗi vượt quá ngưỡng này, đó là dấu hiệu của sự cố tiềm ẩn trong ứng dụng cần được kiểm tra ngay lập tức.</p>
 <p>Sau đó ấn <strong>Next</strong> để tiếp tục.
 5. Giờ thì chúng ta cấu hình thông báo như sau
@@ -650,31 +650,31 @@
 + Tên topic là: <code>Error_logs_reach_10</code>.
 + Email thông báo tới: bạn sẽ nhập email của bạn vào, ở đây mình sẽ nhập của mình.
 + Ấn <strong>Create topic.</strong></p>
-<p><img src="/images/4.cloudwatch/alarm-007.png" alt="Alarm">
-<img src="/images/4.cloudwatch/alarm-008.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-007.png" alt="Alarm">
+<img src="/Workshop-AWS/images/4.cloudwatch/alarm-008.png" alt="Alarm"></p>
 <ul>
 <li>Ấn chọn <strong>Next.</strong></li>
 </ul>
-<p><img src="/images/4.cloudwatch/alarm-008.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-008.png" alt="Alarm"></p>
 <p>⚠️ <strong>Warning</strong>: Đảm bảo rằng địa chỉ email bạn cung cấp là chính xác và được kiểm tra thường xuyên. Nếu không xác nhận đăng ký SNS, bạn sẽ không nhận được thông báo khi alarm kích hoạt.</p>
 <ol>
 <li>Ở bước cuối, nhập tên alarm là <code>PythonApplicationErrorAlarm</code> và ấn chọn <strong>Next.</strong></li>
 </ol>
-<p><img src="/images/4.cloudwatch/alarm-009.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-009.png" alt="Alarm"></p>
 <p>💡 <strong>Pro Tip</strong>: Đặt tên alarm có ý nghĩa và mô tả rõ mục đích giúp dễ dàng quản lý khi số lượng alarm tăng lên trong môi trường sản xuất thực tế.</p>
 <ul>
 <li>Xem lại kết quả và ấn chọn <strong>Create alarm.</strong></li>
 </ul>
-<p><img src="/images/4.cloudwatch/alarm-010.png" alt="Alarm">
-<img src="/images/4.cloudwatch/alarm-011.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-010.png" alt="Alarm">
+<img src="/Workshop-AWS/images/4.cloudwatch/alarm-011.png" alt="Alarm"></p>
 <p>Kết quả</p>
-<p><img src="/images/4.cloudwatch/alarm-012.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-012.png" alt="Alarm"></p>
 <ul>
 <li>Đăng nhập vào Gmail hoặc bất kì trang email nào mà bạn dùng. Bạn sẽ thấy một email được gửi tới từ <strong>AWS Notification.</strong></li>
 <li>Ấn chọn <strong>Confirm subscription.</strong></li>
 </ul>
-<p><img src="/images/4.cloudwatch/alarm-013.png" alt="Alarm">
-<img src="/images/4.cloudwatch/alarm-014.png" alt="Alarm"></p>
+<p><img src="/Workshop-AWS/images/4.cloudwatch/alarm-013.png" alt="Alarm">
+<img src="/Workshop-AWS/images/4.cloudwatch/alarm-014.png" alt="Alarm"></p>
 <p>🔒 <strong>Security Note</strong>: Việc xác nhận đăng ký SNS không chỉ kích hoạt thông báo mà còn là một biện pháp bảo mật, đảm bảo rằng chỉ những người dùng được ủy quyền mới nhận được thông báo về trạng thái hệ thống.</p>
 <p>ℹ️ <strong>Information</strong>: Với CloudWatch Alarms đã thiết lập, bạn có thể mở rộng hệ thống giám sát bằng cách tích hợp với các dịch vụ khác như AWS Lambda để tự động khắc phục sự cố, hoặc AWS Systems Manager để thực hiện các hành động tự động trên tài nguyên bị ảnh hưởng.</p>
 
@@ -941,19 +941,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/Workshop-AWS/js/clipboard.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/jquery.sticky.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/featherlight.min.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/highlight.pack.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/clipboard.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/jquery.sticky.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/featherlight.min.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/highlight.pack.js?1754968633"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/learn.js?1754967488"></script>
-    <script src="/Workshop-AWS/js/hugo-learn.js?1754967488"></script>
+    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/learn.js?1754968633"></script>
+    <script src="/Workshop-AWS/js/hugo-learn.js?1754968633"></script>
 
-    <link href="/Workshop-AWS/mermaid/mermaid.css?1754967488" rel="stylesheet" />
-    <script src="/Workshop-AWS/mermaid/mermaid.js?1754967488"></script>
+    <link href="/Workshop-AWS/mermaid/mermaid.css?1754968633" rel="stylesheet" />
+    <script src="/Workshop-AWS/mermaid/mermaid.js?1754968633"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

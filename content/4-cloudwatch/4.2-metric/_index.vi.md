@@ -20,19 +20,19 @@ pre : " <b> 4.2 </b> "
     + Tìm kiếm dịch vụ **CloudWatch** trong thanh tìm kiếm
     + Chọn **CloudWatch** từ kết quả tìm kiếm
   
-![Metric](/images/4.cloudwatch/metrics-001.png)
+![Metric](/Workshop-AWS/images/4.cloudwatch/metrics-001.png)
 
 1. Trong giao diện **CloudWatch**
     + Mở rộng phần **Metrics** ở menu bên trái
     + Chọn **All metrics**
   
-![Metric](/images/4.cloudwatch/metrics-002.png)
+![Metric](/Workshop-AWS/images/4.cloudwatch/metrics-002.png)
 
   + Trong giao diện biểu đồ metrics, nhập `từ khóa` vào ô tìm kiếm
   + Từ kết quả tìm kiếm, chọn **kết quả mong muốn**
 
-![Metric](/images/4.cloudwatch/metrics-007.png)
-![Metric](/images/4.cloudwatch/metrics-003.png)
+![Metric](/Workshop-AWS/images/4.cloudwatch/metrics-007.png)
+![Metric](/Workshop-AWS/images/4.cloudwatch/metrics-003.png)
 
 💡 **Pro Tip**: Khi sử dụng thanh tìm kiếm, CloudWatch mặc định sẽ tìm theo **Metric name**, giúp bạn nhanh chóng lọc ra các metrics cụ thể cần theo dõi.  
 
@@ -41,7 +41,7 @@ pre : " <b> 4.2 </b> "
     + Thời điểm NetworkOut cao nhất (giai đoạn gửi nhiều request).
     + Thời gian xử lý request (metric từ k6).
   
-![Metric](/images/4.cloudwatch/metrics-004.png)
+![Metric](/Workshop-AWS/images/4.cloudwatch/metrics-004.png)
 
 ⚠️ **Warning**: Khi hiển thị nhiều metrics có đơn vị đo khác nhau trên cùng một biểu đồ, việc phân tích có thể trở nên khó khăn. Trong phần tiếp theo, chúng ta sẽ tìm hiểu cách tùy chỉnh biểu đồ để có cái nhìn trực quan hơn.
 
