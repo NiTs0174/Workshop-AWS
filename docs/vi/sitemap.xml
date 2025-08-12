@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nits0174.github.io/Workshop-AWS/1-introduce/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/1-introduce/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/3-cicd/3.1-git/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/3-cicd/3.1-git/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.1-cloudformation/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/4-cloudwatch/4.1-cloudformation/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/Workshop-AWS/en/"
+                href="http://localhost:1313/Workshop-AWS/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/Workshop-AWS/"
+                href="http://localhost:1313/Workshop-AWS/"
                 />
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/2-prerequiste/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/2-prerequiste/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/3-cicd/3.2-sam-pipeline/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/3-cicd/3.2-sam-pipeline/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.2-metric/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/4-cloudwatch/4.2-metric/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/3-cicd/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/3-cicd/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.3-logs/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/4-cloudwatch/4.3-logs/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.4-alarms/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/4-cloudwatch/4.4-alarms/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/4-cloudwatch/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.5-dashboards/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/4-cloudwatch/4.5-dashboards/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/5-cleanup/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/5-cleanup/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/categories/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/Workshop-AWS/en/categories/"
+                href="http://localhost:1313/Workshop-AWS/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/Workshop-AWS/categories/"
+                href="http://localhost:1313/Workshop-AWS/categories/"
                 />
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/tags/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/Workshop-AWS/en/tags/"
+                href="http://localhost:1313/Workshop-AWS/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/Workshop-AWS/tags/"
+                href="http://localhost:1313/Workshop-AWS/tags/"
                 />
   </url>
 </urlset>

@@ -6,8 +6,6 @@ chapter : false
 pre : " <b> 4. </b> "
 ---
 
-![Architecture](/images/arc-cloudwatch.png)
-
 #### Tổng quan
 ℹ️ **Information**: **Amazon CloudWatch** là dịch vụ giám sát và quan sát (observability) toàn diện của AWS, cho phép thu thập, theo dõi và phân tích metrics, logs, và sự kiện của hạ tầng và ứng dụng theo thời gian thực. Trong bối cảnh Performance Automation Testing in CI/CD, **CloudWatch** đóng vai trò là trung tâm giám sát hiệu năng — giúp tự động thu thập dữ liệu sau mỗi lần kiểm thử tải, phân tích kết quả, phát hiện bất thường và kích hoạt cảnh báo.
 

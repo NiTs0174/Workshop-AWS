@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nits0174.github.io/Workshop-AWS/en/categories/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/Workshop-AWS/categories/"
+                href="http://localhost:1313/Workshop-AWS/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/Workshop-AWS/en/categories/"
+                href="http://localhost:1313/Workshop-AWS/en/categories/"
                 />
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/en/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/Workshop-AWS/"
+                href="http://localhost:1313/Workshop-AWS/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/Workshop-AWS/en/"
+                href="http://localhost:1313/Workshop-AWS/en/"
                 />
   </url><url>
-    <loc>https://nits0174.github.io/Workshop-AWS/en/tags/</loc>
+    <loc>http://localhost:1313/Workshop-AWS/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/Workshop-AWS/tags/"
+                href="http://localhost:1313/Workshop-AWS/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/Workshop-AWS/en/tags/"
+                href="http://localhost:1313/Workshop-AWS/en/tags/"
                 />
   </url>
 </urlset>
