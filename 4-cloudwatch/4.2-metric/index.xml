@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Metric on Performance Testing Automation in CI/CD</title>
-    <link>/4-cloudwatch/4.2-metric/</link>
+    <link>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.2-metric/</link>
     <description>Recent content in Metric on Performance Testing Automation in CI/CD</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/4-cloudwatch/4.2-metric/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.2-metric/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

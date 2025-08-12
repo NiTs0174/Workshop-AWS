@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xây dựng pipeline SAM on Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
-    <link>/vi/3-cicd/</link>
+    <link>https://nits0174.github.io/Workshop-AWS/vi/3-cicd/</link>
     <description>Recent content in Xây dựng pipeline SAM on Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/vi/3-cicd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nits0174.github.io/Workshop-AWS/vi/3-cicd/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

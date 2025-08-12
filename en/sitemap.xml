@@ -2,197 +2,197 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/4-cloudwatch/4.1-cloudformation/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.1-cloudformation/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-cloudwatch/4.1-cloudformation/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/4.1-cloudformation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-cloudwatch/4.1-cloudformation/"
+                href="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.1-cloudformation/"
                 />
   </url><url>
-    <loc>/3-cicd/3.1-git/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/3-cicd/3.1-git/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-cicd/3.1-git/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/3-cicd/3.1-git/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-cicd/3.1-git/"
+                href="https://nits0174.github.io/Workshop-AWS/3-cicd/3.1-git/"
                 />
   </url><url>
-    <loc>/1-introduce/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/1-introduce/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduce/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/1-introduce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduce/"
+                href="https://nits0174.github.io/Workshop-AWS/1-introduce/"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://nits0174.github.io/Workshop-AWS/"
                 />
   </url><url>
-    <loc>/4-cloudwatch/4.2-metric/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.2-metric/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-cloudwatch/4.2-metric/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/4.2-metric/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-cloudwatch/4.2-metric/"
+                href="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.2-metric/"
                 />
   </url><url>
-    <loc>/2-prerequiste/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/2-prerequiste/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-prerequiste/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/2-prerequiste/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-prerequiste/"
+                href="https://nits0174.github.io/Workshop-AWS/2-prerequiste/"
                 />
   </url><url>
-    <loc>/3-cicd/3.2-sam-pipeline/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/3-cicd/3.2-sam-pipeline/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-cicd/3.2-sam-pipeline/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/3-cicd/3.2-sam-pipeline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-cicd/3.2-sam-pipeline/"
+                href="https://nits0174.github.io/Workshop-AWS/3-cicd/3.2-sam-pipeline/"
                 />
   </url><url>
-    <loc>/3-cicd/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/3-cicd/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-cicd/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/3-cicd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-cicd/"
+                href="https://nits0174.github.io/Workshop-AWS/3-cicd/"
                 />
   </url><url>
-    <loc>/4-cloudwatch/4.3-logs/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.3-logs/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-cloudwatch/4.3-logs/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/4.3-logs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-cloudwatch/4.3-logs/"
+                href="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.3-logs/"
                 />
   </url><url>
-    <loc>/4-cloudwatch/4.4-alarms/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.4-alarms/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-cloudwatch/4.4-alarms/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/4.4-alarms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-cloudwatch/4.4-alarms/"
+                href="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.4-alarms/"
                 />
   </url><url>
-    <loc>/4-cloudwatch/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-cloudwatch/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-cloudwatch/"
+                href="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/"
                 />
   </url><url>
-    <loc>/5-cleanup/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/5-cleanup/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-cleanup/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/5-cleanup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-cleanup/"
+                href="https://nits0174.github.io/Workshop-AWS/5-cleanup/"
                 />
   </url><url>
-    <loc>/4-cloudwatch/4.5-dashboards/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.5-dashboards/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-cloudwatch/4.5-dashboards/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/4-cloudwatch/4.5-dashboards/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-cloudwatch/4.5-dashboards/"
+                href="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/4.5-dashboards/"
                 />
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/categories/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://nits0174.github.io/Workshop-AWS/categories/"
                 />
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/tags/"
+                href="https://nits0174.github.io/Workshop-AWS/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://nits0174.github.io/Workshop-AWS/tags/"
                 />
   </url>
 </urlset>
