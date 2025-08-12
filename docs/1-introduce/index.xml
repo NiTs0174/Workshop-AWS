@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Giới Thiệu on Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
-    <link>http://localhost:1313/Workshop-AWS/1-introduce/</link>
+    <link>https://nits0174.github.io/Workshop-AWS/1-introduce/</link>
     <description>Recent content in Giới Thiệu on Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/Workshop-AWS/1-introduce/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nits0174.github.io/Workshop-AWS/1-introduce/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
