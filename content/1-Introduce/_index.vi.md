@@ -25,7 +25,7 @@ Workshop này hướng dẫn cách xây dựng hệ thống kiểm thử hiệu 
 
 ### Kiến Trúc Workshop
 
-![Architecture](/images/arc-cicd-be.png)
+![Architecture](/Workshop-AWS/images/arc-cicd-be.png)
 
 - **k6** cho kiểm thử tải, xác thực hiệu năng và gửi metrics đến CloudWatch.
 - **AWS CodePipeline** Tự động hóa pipeline CI/CD.

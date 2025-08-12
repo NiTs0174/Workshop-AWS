@@ -4,9 +4,9 @@ theme = "hugo-theme-learn"
 # URL gốc cho site khi build
 baseURL = "https://nits0174.github.io/Workshop-AWS/"
 
-# publishDir = "docs"
+publishDir = "docs"
 
-#defaultContentLanguage = "vi"  # đặt Tiếng Việt là mặc định
+defaultContentLanguage = "vi"  # đặt Tiếng Việt là mặc định
 
 # For search functionality
 [outputs]
