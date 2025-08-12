@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nits0174.github.io/000058-SessionManager/en/categories/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/000058-SessionManager/categories/"
+                href="https://nits0174.github.io/Workshop-AWS/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/000058-SessionManager/en/categories/"
+                href="https://nits0174.github.io/Workshop-AWS/en/categories/"
                 />
   </url><url>
-    <loc>https://nits0174.github.io/000058-SessionManager/en/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/000058-SessionManager/"
+                href="https://nits0174.github.io/Workshop-AWS/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/000058-SessionManager/en/"
+                href="https://nits0174.github.io/Workshop-AWS/en/"
                 />
   </url><url>
-    <loc>https://nits0174.github.io/000058-SessionManager/en/tags/</loc>
+    <loc>https://nits0174.github.io/Workshop-AWS/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://nits0174.github.io/000058-SessionManager/tags/"
+                href="https://nits0174.github.io/Workshop-AWS/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nits0174.github.io/000058-SessionManager/en/tags/"
+                href="https://nits0174.github.io/Workshop-AWS/en/tags/"
                 />
   </url>
 </urlset>

@@ -7,26 +7,26 @@
     <meta name="description" content="">
 <meta name="author" content="thangnguyen040701@gmail.com">
 
-    <link rel="icon" href="/000058-SessionManager/images/favicon.png" type="image/png">
+    <link rel="icon" href="/Workshop-AWS/images/favicon.png" type="image/png">
 
     <title>Tích Hợp Giám Sát Hiệu Suất với CloudWatch :: Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</title>
 
     
-    <link href="/000058-SessionManager/css/nucleus.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/fontawesome-all.min.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/hybrid.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/featherlight.min.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/perfect-scrollbar.min.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/auto-complete.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/atom-one-dark-reasonable.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/theme.css?1754965491" rel="stylesheet">
-    <link href="/000058-SessionManager/css/hugo-theme.css?1754965491" rel="stylesheet">
+    <link href="/Workshop-AWS/css/nucleus.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/fontawesome-all.min.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hybrid.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/featherlight.min.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/perfect-scrollbar.min.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/auto-complete.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/atom-one-dark-reasonable.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme.css?1754966009" rel="stylesheet">
+    <link href="/Workshop-AWS/css/hugo-theme.css?1754966009" rel="stylesheet">
     
-    <link href="/000058-SessionManager/css/theme-workshop.css?1754965491" rel="stylesheet">
+    <link href="/Workshop-AWS/css/theme-workshop.css?1754966009" rel="stylesheet">
     
     
 
-    <script src="/000058-SessionManager/js/jquery-3.3.1.min.js?1754965491"></script>
+    <script src="/Workshop-AWS/js/jquery-3.3.1.min.js?1754966009"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/000058-SessionManager/4-cloudwatch/">
+  <body class="" data-url="/Workshop-AWS/4-cloudwatch/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/000058-SessionManager/js/lunr.min.js?1754965491"></script>
-<script type="text/javascript" src="/000058-SessionManager/js/auto-complete.js?1754965491"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/lunr.min.js?1754966009"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/auto-complete.js?1754966009"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/nits0174.github.io\/000058-SessionManager\/";
+        var baseurl = "https:\/\/nits0174.github.io\/Workshop-AWS\/";
     
 </script>
-<script type="text/javascript" src="/000058-SessionManager/js/search.js?1754965491"></script>
+<script type="text/javascript" src="/Workshop-AWS/js/search.js?1754966009"></script>
 
     
   </div>
@@ -82,12 +82,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/1-introduce/" title="Giới Thiệu" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/1-introduce/" title="Giới Thiệu" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/1-introduce/">
+      <a href="/Workshop-AWS/1-introduce/">
            <b> 1. </b> Giới Thiệu
           
             <i class="fas fa-check read-icon"></i>
@@ -108,12 +108,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/2-prerequiste/" title="Chuẩn bị" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/2-prerequiste/" title="Chuẩn bị" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/2-prerequiste/">
+      <a href="/Workshop-AWS/2-prerequiste/">
            <b> 2. </b> Chuẩn bị
           
             <i class="fas fa-check read-icon"></i>
@@ -134,12 +134,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/3-cicd/" title="Xây dựng pipeline SAM" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/3-cicd/" title="Xây dựng pipeline SAM" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/3-cicd/">
+      <a href="/Workshop-AWS/3-cicd/">
            <b> 3. </b> Xây dựng pipeline SAM
           
             <i class="fas fa-check read-icon"></i>
@@ -165,12 +165,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/3-cicd/3.1-git/" title="Tạo kho Git" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/3-cicd/3.1-git/" title="Tạo kho Git" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/3-cicd/3.1-git/">
+      <a href="/Workshop-AWS/3-cicd/3.1-git/">
            <b> 3.1 </b> Tạo kho Git
           
             <i class="fas fa-check read-icon"></i>
@@ -193,12 +193,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/3-cicd/3.2-sam-pipeline/" title="Tạo SAM pipeline" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/3-cicd/3.2-sam-pipeline/" title="Tạo SAM pipeline" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/3-cicd/3.2-sam-pipeline/">
+      <a href="/Workshop-AWS/3-cicd/3.2-sam-pipeline/">
            <b> 3.2 </b> Tạo SAM pipeline
           
             <i class="fas fa-check read-icon"></i>
@@ -228,12 +228,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/4-cloudwatch/" title="Tích Hợp Giám Sát Hiệu Suất với CloudWatch" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/4-cloudwatch/" title="Tích Hợp Giám Sát Hiệu Suất với CloudWatch" class="dd-item 
         
         active
         
         ">
-      <a href="/000058-SessionManager/4-cloudwatch/">
+      <a href="/Workshop-AWS/4-cloudwatch/">
            <b> 4. </b> Tích Hợp Giám Sát Hiệu Suất với CloudWatch
           
             <i class="fas fa-check read-icon"></i>
@@ -259,12 +259,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/4-cloudwatch/4.1-cloudformation/" title="Triển khai CloudFormation Stack" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/4-cloudwatch/4.1-cloudformation/" title="Triển khai CloudFormation Stack" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/4-cloudwatch/4.1-cloudformation/">
+      <a href="/Workshop-AWS/4-cloudwatch/4.1-cloudformation/">
            <b> 4.1 </b> Triển khai CloudFormation Stack
           
             <i class="fas fa-check read-icon"></i>
@@ -287,12 +287,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/4-cloudwatch/4.2-metric/" title="Thu Thập &amp; Phân Tích CloudWatch Metric" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/4-cloudwatch/4.2-metric/" title="Thu Thập &amp; Phân Tích CloudWatch Metric" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/4-cloudwatch/4.2-metric/">
+      <a href="/Workshop-AWS/4-cloudwatch/4.2-metric/">
            <b> 4.2 </b> Thu Thập &amp; Phân Tích CloudWatch Metric
           
             <i class="fas fa-check read-icon"></i>
@@ -315,12 +315,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/4-cloudwatch/4.3-logs/" title="CloudWatch Logs" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/4-cloudwatch/4.3-logs/" title="CloudWatch Logs" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/4-cloudwatch/4.3-logs/">
+      <a href="/Workshop-AWS/4-cloudwatch/4.3-logs/">
            <b> 4.3 </b> CloudWatch Logs
           
             <i class="fas fa-check read-icon"></i>
@@ -343,12 +343,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/4-cloudwatch/4.4-alarms/" title="Thiết Lập cảnh báo CloudWatch Alarms" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/4-cloudwatch/4.4-alarms/" title="Thiết Lập cảnh báo CloudWatch Alarms" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/4-cloudwatch/4.4-alarms/">
+      <a href="/Workshop-AWS/4-cloudwatch/4.4-alarms/">
            <b> 4.4 </b> Thiết Lập cảnh báo CloudWatch Alarms
           
             <i class="fas fa-check read-icon"></i>
@@ -371,12 +371,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/4-cloudwatch/4.5-dashboards/" title="CloudWatch Dashboards" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/4-cloudwatch/4.5-dashboards/" title="CloudWatch Dashboards" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/4-cloudwatch/4.5-dashboards/">
+      <a href="/Workshop-AWS/4-cloudwatch/4.5-dashboards/">
            <b> 4.5 </b> CloudWatch Dashboards
           
             <i class="fas fa-check read-icon"></i>
@@ -406,12 +406,12 @@
  
   
     
-    <li data-nav-id="/000058-SessionManager/5-cleanup/" title="Dọn Dẹp Tài Nguyên" class="dd-item 
+    <li data-nav-id="/Workshop-AWS/5-cleanup/" title="Dọn Dẹp Tài Nguyên" class="dd-item 
         
         
         
         ">
-      <a href="/000058-SessionManager/5-cleanup/">
+      <a href="/Workshop-AWS/5-cleanup/">
            <b> 5. </b> Dọn Dẹp Tài Nguyên
           
             <i class="fas fa-check read-icon"></i>
@@ -461,7 +461,7 @@
                   
                     
                     
-                      <option id="vi" value="https://nits0174.github.io/000058-SessionManager/4-cloudwatch/" selected>Tiếng Việt</option>
+                      <option id="vi" value="https://nits0174.github.io/Workshop-AWS/4-cloudwatch/" selected>Tiếng Việt</option>
                     
                   
               
@@ -560,7 +560,7 @@
             
           
           
-            <a href='/000058-SessionManager/'>Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</a> > Tích Hợp Giám Sát Hiệu Suất với CloudWatch
+            <a href='/Workshop-AWS/'>Tự Động Hóa Kiểm Thử Hiệu Năng trong CI/CD</a> > Tích Hợp Giám Sát Hiệu Suất với CloudWatch
           
         
           
@@ -618,11 +618,11 @@
 <p>🔒 <strong>Security Note</strong>: Việc thiết lập giám sát đúng cách với <strong>CloudWatch</strong> không chỉ giúp tối ưu hiệu suất mà còn là một phần quan trọng trong chiến lược bảo mật, giúp phát hiện các hoạt động bất thường trong hệ thống của bạn.</p>
 <h4 id="nội-dung">Nội dung</h4>
 <ul>
-<li><a href="/000058-SessionManager/4-cloudwatch/4.1-cloudformation/">CloudFormation</a></li>
-<li><a href="/000058-SessionManager/4-cloudwatch/4.2-metric/">CloudWatch Metric</a></li>
-<li><a href="/000058-SessionManager/4-cloudwatch/4.3-logs/">CloudWatch Logs</a></li>
-<li><a href="/000058-SessionManager/4-cloudwatch/4.4-alarms/">CloudWatch Alarms</a></li>
-<li><a href="/000058-SessionManager/4-cloudwatch/4.5-dashboards/">CloudWatch Dashboards</a></li>
+<li><a href="/Workshop-AWS/4-cloudwatch/4.1-cloudformation/">CloudFormation</a></li>
+<li><a href="/Workshop-AWS/4-cloudwatch/4.2-metric/">CloudWatch Metric</a></li>
+<li><a href="/Workshop-AWS/4-cloudwatch/4.3-logs/">CloudWatch Logs</a></li>
+<li><a href="/Workshop-AWS/4-cloudwatch/4.4-alarms/">CloudWatch Alarms</a></li>
+<li><a href="/Workshop-AWS/4-cloudwatch/4.5-dashboards/">CloudWatch Dashboards</a></li>
 </ul>
 
 
@@ -871,10 +871,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/000058-SessionManager/3-cicd/3.2-sam-pipeline/" title="Tạo SAM pipeline"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/Workshop-AWS/3-cicd/3.2-sam-pipeline/" title="Tạo SAM pipeline"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/000058-SessionManager/4-cloudwatch/4.1-cloudformation/" title="Triển khai CloudFormation Stack" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/Workshop-AWS/4-cloudwatch/4.1-cloudformation/" title="Triển khai CloudFormation Stack" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -884,19 +884,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/000058-SessionManager/js/clipboard.min.js?1754965491"></script>
-    <script src="/000058-SessionManager/js/perfect-scrollbar.min.js?1754965491"></script>
-    <script src="/000058-SessionManager/js/perfect-scrollbar.jquery.min.js?1754965491"></script>
-    <script src="/000058-SessionManager/js/jquery.sticky.js?1754965491"></script>
-    <script src="/000058-SessionManager/js/featherlight.min.js?1754965491"></script>
-    <script src="/000058-SessionManager/js/highlight.pack.js?1754965491"></script>
+    <script src="/Workshop-AWS/js/clipboard.min.js?1754966009"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.min.js?1754966009"></script>
+    <script src="/Workshop-AWS/js/perfect-scrollbar.jquery.min.js?1754966009"></script>
+    <script src="/Workshop-AWS/js/jquery.sticky.js?1754966009"></script>
+    <script src="/Workshop-AWS/js/featherlight.min.js?1754966009"></script>
+    <script src="/Workshop-AWS/js/highlight.pack.js?1754966009"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/000058-SessionManager/js/modernizr.custom-3.6.0.js?1754965491"></script>
-    <script src="/000058-SessionManager/js/learn.js?1754965491"></script>
-    <script src="/000058-SessionManager/js/hugo-learn.js?1754965491"></script>
+    <script src="/Workshop-AWS/js/modernizr.custom-3.6.0.js?1754966009"></script>
+    <script src="/Workshop-AWS/js/learn.js?1754966009"></script>
+    <script src="/Workshop-AWS/js/hugo-learn.js?1754966009"></script>
 
-    <link href="/000058-SessionManager/mermaid/mermaid.css?1754965491" rel="stylesheet" />
-    <script src="/000058-SessionManager/mermaid/mermaid.js?1754965491"></script>
+    <link href="/Workshop-AWS/mermaid/mermaid.css?1754966009" rel="stylesheet" />
+    <script src="/Workshop-AWS/mermaid/mermaid.js?1754966009"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
